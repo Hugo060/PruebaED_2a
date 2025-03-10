@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+22
+-sourcepath
+'C:/Users/Vespertino/Documents/NetBeansProjects/Instituto/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Vespertino/Documents/NetBeansProjects/Instituto/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Instituto 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Instituto 1.0-SNAPSHOT API'
+com.iescomercio.instituto
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\src\main\java = 1741625631994
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\allclasses-index.html = 1741633828166
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\allpackages-index.html = 1741633828169
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\element-list = 1741633828106
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\help-doc.html = 1741633828202
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\index-all.html = 1741633828191
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\index.html = 1741633828196
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\member-search-index.js = 1741633828175
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\module-search-index.js = 1741633828171
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\overview-tree.html = 1741633828154
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\package-search-index.js = 1741633828172
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\search.html = 1741633828194
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\tag-search-index.js = 1741633828177
+C:\Users\Vespertino\Documents\NetBeansProjects\Instituto\target\reports\apidocs\type-search-index.js = 1741633828174
