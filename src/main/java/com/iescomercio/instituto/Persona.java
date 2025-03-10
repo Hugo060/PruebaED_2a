@@ -18,7 +18,7 @@ public class Persona implements Comparable<Persona> {
         genero = ' ';
         nacimiento = LocalDate.of(1990, 1, 1);
     }
-
+    
     public Persona(int nif) {
         this();
         this.nif = new Nif(nif);
