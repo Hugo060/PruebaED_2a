@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Objects;
 
-/*
+/**
   La clase Persona representa a una persona en el sistema.
   Contiene información como el NIF, nombre, género y fecha de nacimiento.
 
@@ -19,7 +19,7 @@ public class Persona implements Comparable<Persona> {
     private char genero;
     private LocalDate nacimiento;
 
-    /*
+    /**
     Es el constructor de la clase Persona 
     Este constructor inicializa los valores.
     */
@@ -30,7 +30,7 @@ public class Persona implements Comparable<Persona> {
         nacimiento = LocalDate.of(1990, 1, 1);
     }
     
-    /*
+    /**
     Es otro constructor de la clase Persona
     A este constructor hay que pasarle un int NIf
     Y este creará un NIF con ese int
@@ -41,7 +41,7 @@ public class Persona implements Comparable<Persona> {
         this.nif = new Nif(nif);
     }
 
-    /*
+    /**
     Es otro constructor de la clase Persona
     A este constructor hay que pasarle un int NIf, un String nombre y un char 
     con el género.
@@ -59,7 +59,7 @@ public class Persona implements Comparable<Persona> {
                 = LocalDate.of(ano, mes, dia);
     }
 
-    /*
+    /**
     Obtiene el NIF de la persona 
     @return nif
     */
@@ -67,7 +67,7 @@ public class Persona implements Comparable<Persona> {
         return nif;
     }
 
-    /*
+    /**
     Inicializa el NIF con el NIF que le pases
     @param nif 
     */
@@ -75,7 +75,7 @@ public class Persona implements Comparable<Persona> {
         this.nif = nif;
     }
 
-    /*
+    /**
     Obtiene el nombre de la persona
     @return nombre
     */
@@ -83,7 +83,7 @@ public class Persona implements Comparable<Persona> {
         return nombre;
     }
 
-    /*
+    /**
     Inicializa el nombre de la persona con el nombre que le hayas pasado
     @param nombre
     */
@@ -91,14 +91,14 @@ public class Persona implements Comparable<Persona> {
         this.nombre = nombre;
     }
 
-    /*
+    /**
     Obtiene el género de la Persona
     @return genero
     */
     public char getGenero() {
         return genero;
     }
-    /*
+    /**
     Inicializa el género de la persona con el género que le pases
     @param genero
     */
@@ -106,7 +106,7 @@ public class Persona implements Comparable<Persona> {
         this.genero = genero;
     }
 
-    /*
+    /**
     Obtiene la fecha de nacimiento de la Persona
     @return nacimiento
     
@@ -115,7 +115,7 @@ public class Persona implements Comparable<Persona> {
         return nacimiento;
     }
 
-    /*
+    /**
     Inicializa la fecha de nacimiento con el parámetro de LocalDate que le pases
     @param nacimiento
     */
@@ -123,7 +123,7 @@ public class Persona implements Comparable<Persona> {
         this.nacimiento = nacimiento;
     }
 
-    /*
+    /**
     Obtiene la edad de la persona
     @return Period.between(nacimiento, LocalDate.now()).getYears();
     */
@@ -131,7 +131,7 @@ public class Persona implements Comparable<Persona> {
         return Period.between(nacimiento, LocalDate.now()).getYears();
     }
     
-    /*
+    /**
     Devuelve en formato String de la persona.
     Este incluye el nif, nombre y edad de esta.
     @return retona el nif, el nombre y la edad
@@ -146,7 +146,7 @@ public class Persona implements Comparable<Persona> {
         }
     }
 
-    /*
+    /**
     Compara dos personas por su nif
     @param la persona que queires comparar
     @return false si no son iguales, true si son iguales.
@@ -158,7 +158,7 @@ public class Persona implements Comparable<Persona> {
         return a.nif.toString().equals(this.nif.toString());
     }
 
-    /*
+    /**
     Dice si dos objetos son iguales por el NIF
     @param obj le pasas el objeto que quieres comparar
     @return true si son iguales, false si no lo son
@@ -179,7 +179,7 @@ public class Persona implements Comparable<Persona> {
         return Objects.equals(this.nif, other.nif);
     }
 
-    /*
+    /**
     Compara dos personas basandose por su NIF
     @param o pasas la persona que quieres comparar
     @return devuelve un valor negativo si el NIF es menor, 0 si es igual

@@ -3,7 +3,7 @@ package com.iescomercio.instituto;
 
 import java.util.TreeSet;
 
-/*
+/**
  La clase Curso representa un curso en un instituto.
  Contiene una lista de alumnos matriculados en el curso.
  
@@ -16,7 +16,7 @@ public class Curso {
     private TreeSet<Persona> listaAlumnos;
 
     
-    /*
+    /**
       Obtiene el nombre del curso.
     
       @return El nombre del curso.
@@ -25,7 +25,7 @@ public class Curso {
         return nombre;
     }
 
-    /*
+    /**
      Constructor de la clase curso
     
     @param nombre, es el nombre del curso
@@ -35,7 +35,7 @@ public class Curso {
         listaAlumnos = new TreeSet<>();
     }
 
-    /*
+    /**
       Devuelve un String del curso,
       incluyendo la lista de alumnos matriculados.
       
@@ -52,7 +52,7 @@ public class Curso {
         return s;
     }
 
-    /*
+    /**
       Añade un alumno al curso.
       
       @param p es el objeto Persona que representa al alumno.
